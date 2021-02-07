@@ -1,0 +1,59 @@
+.__button {
+  background: linear-gradient(270deg, #FFD9D9 2.16%, #FFB6B6 103.55%);
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.25);
+  max-width: 250px;
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+.__button:hover {
+  box-shadow: 4px 8px 10px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
+}
+.__body {
+  height: 100%;
+  width: 80%;
+  display: flex;
+  margin: auto;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-content: center;
+  /* Menu */
+}
+.__body #menu {
+  flex-basis: 50%;
+  width: 50%;
+}
+.__body #menu ul {
+  min-width: 100%;
+  max-width: max-content;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-flow: column nowrap;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+}
+.__body #menu ul li {
+  margin: 10px;
+  padding: 10px 10px;
+  cursor: pointer;
+}
+.__body #picture {
+  flex-basis: 50%;
+  max-width: 400px;
+  min-width: 200px;
+  font-size: 14px;
+  text-align: center;
+}
+.__body #picture img {
+  margin: auto;
+  width: 100%;
+}
+.__body #picture p {
+  margin: 5px 0;
+}
+
+/*# sourceMappingURL=home.css.map */
