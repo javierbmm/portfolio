@@ -8,6 +8,15 @@
   flex-flow: row nowrap;
   justify-content: space-around;
   align-content: center;
+  @media only screen and (max-width: 834px) {
+    flex-flow: column wrap;
+    #menu {
+      order: 1;
+    }
+    #picture {
+      order: 0;
+    }
+  }
   /* Menu */
   #menu {
     flex-basis: 50%;
